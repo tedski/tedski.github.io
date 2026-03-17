@@ -1,0 +1,50 @@
+baseURL: "https://www.tedski.net"
+title: "tedski.net"
+theme: "PaperMod"
+languageCode: "en-us"
+paginate: 10
+
+params:
+  author: "Ted Strzalkowski"
+  description: "Do it right, understand the why, leave it better than you found it."
+  homeInfoParams:
+    Title: "Ted Strzalkowski"
+    Content:  >
+      Somewhere between the woodworking, the water, and the occasional hardware teardown,
+      a philosophy emerged: **do it right, understand the why, and leave it better than you
+      found it**. It applies to distributed systems the same way it applies to a dovetail
+      joint. Currently between roles and going deeper on all of it. Resume's in the nav
+      if that's what brought you here.
+  socialIcons:
+    - name: github
+      url: "https://github.com/tedski"
+    - name: linkedin
+      url: "https://linkedin.com/in/tedski"
+  showReadingTime: true
+  showShareButtons: false
+  showPostNavLinks: true
+  showBreadCrumbs: false
+  showCodeCopyButtons: true
+  showToc: false
+  comments: false
+
+menu:
+  main:
+    - name: "Resume"
+      url: "/resume/"
+      weight: 1
+    - name: "Contact"
+      url: "/contact/"
+      weight: 2
+    - name: "GitHub"
+      url: "https://github.com/tedski"
+      weight: 3
+
+security:
+  enableInlineShortcodes: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
