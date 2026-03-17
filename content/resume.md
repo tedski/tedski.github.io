@@ -1,5 +1,5 @@
 ---
-title: false
+title: "Resume"
 layout: "single"
 url: "/resume/"
 summary: "Ted Strzalkowski - Staff Software Engineer"
