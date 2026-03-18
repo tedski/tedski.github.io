@@ -1,4 +1,4 @@
-+++
-title = "Ted Strzalkowski"
-layout = "home"
-+++
+---
+title: "Ted Strzalkowski"
+layout: "home"
+---
