@@ -35,7 +35,7 @@ jobs:
       - name: Generate resume PDF
         run: |
           pandoc content/resume.md \
-            --defaults pandoc/defaults.yml \
+            --defaults pandoc/defaults.json \
             -o static/Resume-TedStrzalkowski.pdf
       - uses: actions/upload-artifact@v7
         with:

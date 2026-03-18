@@ -1,5 +1,0 @@
-template: pandoc/resume-template.tex
-pdf-engine: xelatex
-filters:
-  - pandoc/strip-hugo-content.lua
-shift-heading-level-by: -1

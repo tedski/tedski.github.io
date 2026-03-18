@@ -1,11 +1,11 @@
----
-title: "Ted F. Strzalkowski"
-description: "PDF generated from this page via Pandoc and XeLaTeX"
-params:
-  hideMeta: true
-showReadingTime: false
-contact: "Boulder Creek, CA  ·  contact@tedski.net  ·  linkedin.com/in/tedski  ·  github.com/tedski"
----
++++
+title = "Ted F. Strzalkowski"
+description = "PDF generated from this page via Pandoc and XeLaTeX"
+[params]
+  hideMeta = true
+showReadingTime = false
+contact = "Boulder Creek, CA  ·  contact@tedski.net  ·  linkedin.com/in/tedski  ·  github.com/tedski"
++++
 
 [Download PDF](/Resume-TedStrzalkowski.pdf)
 
