@@ -1,4 +1,8 @@
 {
+  "metadata": {
+    "author": "Ted Strzalkowski",
+    "title": "Ted Strzalkowski's Resumé"
+  },
   "template": "pandoc/resume-template.tex",
   "pdf-engine": "xelatex",
   "filters": [
