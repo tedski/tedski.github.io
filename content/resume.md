@@ -1,19 +1,15 @@
 ---
-title: "Resume"
-layout: "single"
-url: "/resume/"
-summary: "Ted Strzalkowski - Staff Software Engineer"
+title: "Ted F. Strzalkowski"
+description: "PDF generated from this page via Pandoc and XeLaTeX"
+params:
+  hideMeta: true
 showReadingTime: false
-showDate: false
-name: "Ted F. Strzalkowski"
 contact: "Boulder Creek, CA  ·  contact@tedski.net  ·  linkedin.com/in/tedski  ·  github.com/tedski"
 ---
 
 [Download PDF](/Resume-TedStrzalkowski.pdf)
 
-# Ted F. Strzalkowski
-
-Staff Engineer · Platform, Infrastructure & Developer Tooling  
+### Staff Engineer · Platform, Infrastructure & Developer Tooling  
 Boulder Creek, CA · [linkedin.com/in/tedski](https://linkedin.com/in/tedski) · [github.com/tedski](https://github.com/tedski)
 
 ---
