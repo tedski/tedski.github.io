@@ -8,6 +8,7 @@
 \usepackage{fontspec}
 \setmainfont{Source Sans Pro}
 \newfontfamily\namefont{Source Serif Pro}[BoldFont = Source Serif Pro Bold]
+\newfontfamily\semisans{Source Sans Pro}[BoldFont = Source Sans Pro Semibold]
 
 % Color
 \usepackage{xcolor}
@@ -38,14 +39,14 @@
 % #### -> \subsubsection (italic, no rule) (Teams)
 \usepackage{titlesec}
 \titleformat{\section}
-  {\large\bfseries}{}{0em}{\MakeUppercase}
+  {\large\semisans\bfseries}{}{0em}{\MakeUppercase}
   [\vspace{-6pt}\textcolor{black}{\hrule}\vspace{4pt}]
 \titlespacing{\section}{0pt}{5pt}{4pt}
 
-\titleformat{\subsection}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\large\semisans\bfseries}{}{0em}{}
 \titlespacing{\subsection}{0pt}{4pt}{2pt}
 
-\titleformat{\subsubsection}{\normalsize\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\normalsize\semisans\bfseries}{}{0em}{}
 \titlespacing{\subsubsection}{0pt}{4pt}{1pt}
 
 % No page numbers
