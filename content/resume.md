@@ -42,6 +42,8 @@ Staff engineer specializing in platform, infrastructure, and developer tooling w
 - Trusted by directors and VPs as the go-to analyst for capacity investigations, using Spark, Trino, and Python to validate forecasts, diagnose anomalies, and independently verify performance improvement claims before organizational commitments were made.
 - Designed a standardized metrics framework for Capacity Engineering, classifying signals into user, capacity, and health indicators to improve decision-making and dashboard consistency across the org; began implementing the ingestion pipeline before departing.
 - Authored internal observability guidance adopted across Capacity Engineering, standardizing Grafana-compatible metrics and improving telemetry consistency across the team.
+- Led Code Yellow, a cross-org infrastructure optimization initiative that recovered over 2,000 machines in unused capacity; also led the SRE track onboarding bootcamp for incoming engineers.
+- Maintained an active mentorship practice carrying up to five concurrent mentees, contributing to multiple promotions across the SRE org.
 
 #### Resilience Engineering — Waterbear (2019 – 2021) · promoted to Staff 2019
 
