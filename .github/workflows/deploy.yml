@@ -19,10 +19,12 @@ jobs:
   generate-pdf:
     runs-on: ubuntu-latest
     container:
-      image: pandoc/extra:latest
+      image: pandoc/extra:3.10.0.0-ubuntu
     steps:
       - name: Install git
-        run: apk add --no-cache git
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends git
       - uses: actions/checkout@v6
         with:
           submodules: recursive
