@@ -16,20 +16,21 @@ Boulder Creek, CA · [linkedin.com/in/tedski](https://linkedin.com/in/tedski) ·
 
 ## Summary
 
-Staff engineer specializing in platform, infrastructure, and developer tooling with a decade of SRE experience across large-scale distributed systems. I build things that make engineers more effective, and I treat user feedback, adoption metrics, and documentation as first-class engineering concerns measured with the same rigor as uptime. My leadership instincts were forged in the U.S. Coast Guard and as a Firefighter, where the Incident Command System shaped how I approach reliability: clear ownership, documented procedures, structured on-call culture, and coordination under pressure. I spent my recent career break deepening my practice in agentic AI development, applying a structured research-plan-implement-test methodology to keep AI-assisted work genuinely maintainable.
+Staff engineer specializing in platform, infrastructure, and developer tooling with a decade of SRE experience across large-scale distributed systems. I build things that make engineers more effective, and I treat user feedback, adoption metrics, and documentation as first-class engineering concerns measured with the same rigor as uptime. My leadership instincts were forged in the U.S. Coast Guard and as a Firefighter, where the Incident Command System shaped how I approach reliability: clear ownership, documented procedures, structured on-call culture, and coordination under pressure. Currently building developer experience tooling at Weights & Biases.
 
 ---
 
 ## Experience
 
-### Career Break — Personal Development & Projects
-*Apr 2025 – Present · Boulder Creek, CA*
+### Staff Software Engineer — Developer Experience
+*Jul 2025 – Present · Weights & Biases (Coreweave) · Remote*
 
-- Extended a home automation system spanning Z-Wave, Zigbee, and custom ESP32 hardware, building local-first replacements for cloud-dependent devices including a garage door controller, Somfy shade driver via LoRa, smart gate opener, and a circuit-level power monitor using current transformers. Iterated on automations based on feedback from household members and guests, with a design principle of graceful fallback to fully manual operation.
-- Created [TideSignal](https://github.com/tedski/tidesignal), an agentic AI application built entirely through Claude Code, applying a research-plan-implement-test methodology to explore agentic development patterns with sub-agents and structured workflows.
-- Migrated a legacy shell-script-based fleet orchestration system to IaC using Ansible and Docker Compose ([efnetmoto-fleet](https://github.com/efnetmoto/efnetmoto-fleet)), closing years of personal tech debt.
-- Applied production-grade operational practices throughout: documentation-driven development, no single points of failure, and infrastructure designed for handoff — same engineering rigor as enterprise systems, different scale.
-- Built Jupyter notebooks to model solar PV and battery ROI using local weather station data and programmatic rate cards ([solar-roi](https://github.com/tedski/solar-roi)).
+Software engineer on the Developer Experience (DevEx) team, building and improving the platform, CI systems, and local development tooling that support engineers throughout the software development lifecycle. Focused on enhancing developer productivity and streamlining engineering workflows.
+
+### Career Break — Personal Development & Projects
+*Apr 2025 – Jul 2025 · Boulder Creek, CA*
+
+Deliberate sabbatical focused on agentic AI development, home automation, and personal infrastructure projects. See [github.com/tedski](https://github.com/tedski).
 
 ### Staff Site Reliability Engineer → Staff Software Engineer
 *2019 – Apr 2025 · LinkedIn · Remote*
@@ -59,23 +60,10 @@ Staff engineer specializing in platform, infrastructure, and developer tooling w
 - Bridged SRE and product engineering for the Content Org by shifting operational ownership to developers through tooling training and self-service runbooks, eliminating SRE release gatekeeping and increasing team autonomy and release velocity across the Publishing and Pulse stacks.
 - Transitioned to the founding Resilience Engineering / Waterbear team in 2018, contributing to early LinkedOut platform development ahead of Staff promotion.
 
-### Senior Systems Engineer
-*Jul 2014 – Jun 2016 · Lucid Design Group (Atrius) · Oakland, CA*
+### Previous Experience — Systems & DevOps Engineering
+*2011 – 2016 · Lucid Design Group, eBay Inc, Shopping.com*
 
-- Re-architected infrastructure for a fast-growing startup; introduced configuration management, containerization, and zero-touch deployment pipelines.
-- Built and open-sourced internal automation tooling; evangelized DevOps and agile practices across engineering.
-
-### Lead Systems Administrator
-*Apr 2013 – Jul 2014 · eBay Inc · San Francisco Bay Area*
-
-- Led DevOps team of 10; overhauled change review process using GitHub PRs and Jira, improving deployment pipeline efficiency.
-- Implemented infrastructure automation and config management via SaltStack; authored and open-sourced custom Salt modules.
-
-### Systems Administrator
-*Jul 2011 – Apr 2013 · Shopping.com (an eBay Company) · Brisbane, CA*
-
-- Re-architected feed generation application reducing server footprint from 100 to 12 nodes while improving reliability, resulting in a 95% reduction in escalations.
-- Automated software releases and server provisioning, cutting deployment time 25% and new machine delivery time 50%.
+- Infrastructure automation, configuration management, and DevOps culture across a startup and two large-scale e-commerce environments. Early practitioner of IaC, containerization, and continuous delivery.
 
 ### Various Roles — Maritime Operations & Systems Administration
 *2000 – 2009 · U.S. Coast Guard · San Francisco Bay Area / New York*
